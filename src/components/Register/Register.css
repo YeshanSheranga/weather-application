@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Pangolin&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&family=Roboto+Slab:wght@500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto Slab;
+  /* background-image: url("https://images.unsplash.com/photo-1679542641505-c333cda2de5d?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+}
+.container-reg {
+  /* border: 1px solid red; */
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container-reg {
+  /* border: 1px solid green; */
+  margin: 10px;
+  width: 800px;
+  height: 350px;
+  display: grid;
+  grid-template-columns: 350px 450px;
+  /* border-radius: 10px; */
+  /* box-shadow: 8px 5px rgba(208, 201, 218, 0.651); */
+}
+
+.sub-left {
+  /* border: 1px solid purple; */
+  width: 350px;
+  height: 350px;
+  background-image: url(https://images.unsplash.com/photo-1514632595-4944383f2737?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+  /* border-radius: 10px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.sub-left .weather-title {
+  border: 1px solid red;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.sub-right {
+  /* border: 1px solid purple; */
+  background-color: rgba(225, 231, 232, 0.311);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-right .reg-title h2 {
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 5px;
+}
+
+.sub-right .user input {
+  width: 300px;
+  margin: 10px;
+  padding: 8px;
+  border: none;
+}
+
+.sub-right .btn {
+  width: 200px;
+  margin: 10px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.account p{
+    font-size: 10px;
+    
+}

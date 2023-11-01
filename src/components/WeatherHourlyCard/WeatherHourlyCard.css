@@ -1,0 +1,67 @@
+.left-bottom {
+  /* border: 1px solid gray; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  overflow-x: auto;
+}
+
+.left-bottom .hr-one {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 3px 5px grey;
+  background-color: rgba(237, 237, 236, 0.806);
+  padding: 10px;
+}
+.left-bottom .hr-two {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 3px 5px grey;
+}
+.left-bottom .hr-three {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 3px 5px grey;
+}
+.left-bottom .hr-four {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 3px 5px grey;
+}
+
+.left-bottom-search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cadetblue; */
+}
+
+.left-bottom .search-today-weather{
+  /* border: 1px solid green; */
+  width: 350px;
+  height: 100px;
+  text-transform: uppercase;
+}
+/* .left-bottom .search-weather-today h2{
+  border: 1px solid green;
+} */
+
+.left-bottom button{
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}

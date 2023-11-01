@@ -1,0 +1,106 @@
+.right-one {
+  /* border: 1px solid rgba(15, 14, 13, 0.153); */
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  height: 520px;
+  /* background-color: burlywood; */
+  color: aliceblue;
+  box-shadow: 2px 4px grey;
+  border-radius: 5px;
+}
+
+.right-one .right-one-header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+
+.right-one .right-one-header .head h3 {
+  text-transform: uppercase;
+}
+
+.right-one .right-one-monday {
+  /* border: 1px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+.right-one .right-one-tuesday {
+  /* border: 1px solid purple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+
+/* .right-one .right-one-tuesday .devOne {
+  border: 1px solid green;
+} */
+
+.right-one .right-one-tuesday .devOne ul li {
+  list-style: none;
+}
+.right-one .right-one-wednesday {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+
+/* .right-one .right-one-wednesday .devTwo {
+  border: 1px solid green;
+} */
+
+.right-one .right-one-wednesday .devTwo ul li {
+  list-style: none;
+}
+
+.right-one .right-one-thursday {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+
+/* .right-one .right-one-thursday .devThree {
+  border: 1px solid green;
+} */
+
+.right-one .right-one-thursday .devThree ul li {
+  list-style: none;
+}
+
+.right-one .right-one-friday {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px grey;
+  background-color: rgba(168, 185, 185, 0.861);
+}
+/* .right-one .right-one-friday .devFour {
+  border: 1px solid red;
+} */
+
+.right-one .right-one-friday .devFour ul li {
+  list-style: none;
+}
